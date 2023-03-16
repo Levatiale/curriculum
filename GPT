@@ -1,33 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>My Curriculum Vitae</title>
-  </head>
-  <body>
-    <h1>My Curriculum Vitae</h1>
-    <h2>Personal Information</h2>
-    <ul>
-      <li>Name: Alessandro Levati</li>
-      <li>Email: alexlevati56@gamil.com</li>
-      <li>Phone: 555-1234</li>
-      <li>Address: 123 Main St, Anytown, USA</li>
-    </ul>
-    <h2>Education</h2>
-    <ul>
-      <li>Bachelor of Science in Computer Science, University of XYZ, 2010-2014</li>
-      <li>Master of Science in Computer Science, University of XYZ, 2014-2016</li>
-    </ul>
-    <h2>Experience</h2>
-    <ul>
-      <li>Software Engineer, Acme Corporation, 2016-present</li>
-      <li>Intern, XYZ Company, Summer 2015</li>
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming languages: Java, Python, C++</li>
-      <li>Web development: HTML, CSS, JavaScript</li>
-      <li>Database management: SQL, Oracle</li>
-    </ul>
-  </body>
+<html>
+<head>
+	<title>Curriculum Vitae</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>John Doe</h1>
+		<p>Email: johndoe@email.com</p>
+		<p>Phone: (123) 456-7890</p>
+		<p>Address: 123 Main St, Anytown USA</p>
+	</header>
+	
+	<main>
+		<h2>Education</h2>
+		<ul>
+			<li>Bachelor of Science in Computer Science, XYZ University, 2021</li>
+			<li>Master of Science in Data Science, ABC University, 2023 (expected)</li>
+		</ul>
+		
+		<h2>Experience</h2>
+		<ul>
+			<li>Software Engineer, Acme Corporation, 2021-present</li>
+			<ul>
+				<li>Develop and maintain software applications using Java and Python</li>
+				<li>Collaborate with cross-functional teams to ensure product quality and user satisfaction</li>
+			</ul>
+			<li>Data Analyst Intern, XYZ Corporation, Summer 2020</li>
+			<ul>
+				<li>Extracted and analyzed data from various sources to identify trends and insights</li>
+				<li>Created reports and visualizations to communicate findings to stakeholders</li>
+			</ul>
+		</ul>
+		
+		<h2>Skills</h2>
+		<ul>
+			<li>Programming languages: Java, Python, SQL</li>
+			<li>Data analysis tools: Excel, Tableau, Power BI</li>
+			<li>Communication and collaboration</li>
+		</ul>
+	</main>
+</body>
 </html>
+
